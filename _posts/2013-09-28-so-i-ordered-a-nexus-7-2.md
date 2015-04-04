@@ -7,17 +7,8 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  tumblr_rarelyneeded_permalink: http://rarelyneeded.tumblr.com/post/62490867849/so-i-ordered-a-nexus-7-2
-  tumblr_rarelyneeded_id: '62490867849'
-author:
-  login: antti
-  email: me@rarelyneeded.com
-  display_name: antti
-  first_name: ''
-  last_name: ''
-
 ---
+
 Yesterday I went an ordered a WiFi-only Nexus 7&#160;2&#160;<sup id="fnref:p62490867849-name"><a href="p62490867849-name" rel="footnote">1</a></sup>. Me, a guy who&#8217;s somewhat deeply invested in the Apple ecosystem! Also, me, who&#8217;s been pretty vocal about how dumb it is to buy a tablet without cellular connectivity. Yep. Here&#8217;s why:
 
 <ul>
