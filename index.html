@@ -3,7 +3,7 @@ layout: default
 ---
 
   <section class="post-listing">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <article class="post">
       <header class="post__header">
         <h1 class="post__title">
@@ -26,4 +26,22 @@ layout: default
       <hr class="post__separator">
     </article><!-- #post-## -->
   {% endfor %}
+
+    <nav class="post__navigation">
+      {% if paginator.next_page %}
+        <div class="post__navigation-link tiny-link post__navigation-previous">
+          <a href="{{ paginator.next_page_path }}">
+            <span class="meta-nav">←</span> Older posts
+          </a>
+        </div>
+      {% endif %}
+
+      {% if paginator.previous_page %}
+        <div class="post__navigation-link tiny-link post__navigation-next">
+          <a href="{{ paginator.previous_page_path }}">
+            Newer posts <span class="meta-nav">→</span>
+          </a>
+        </div>
+      {% endif %}
+    </nav>
   </section>
