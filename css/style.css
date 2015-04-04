@@ -1,0 +1,354 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+html {
+  overflow-y: scroll;
+  /* Keeps page centered in all browsers regardless of content height */
+  -webkit-text-size-adjust: 100%;
+  /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+  -ms-text-size-adjust: 100%;
+  /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */ }
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section {
+  display: block; }
+
+table {
+  /* tables still need 'cellspacing="0"' in the markup */
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
+  font-weight: normal;
+  text-align: left; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  quotes: "" ""; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:hover, a:active {
+  outline: 0; }
+
+a img {
+  border: 0; }
+
+body {
+  font-family: Lato, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.25;
+  color: #606060;
+  font-family: Merriweather, serif; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    text-decoration: none;
+    color: #606060; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.8em; }
+
+h3 {
+  font-size: 1.6em; }
+
+article, p {
+  line-height: 1.45;
+  color: #6D6D6D; }
+
+p {
+  margin: 0.75em 0; }
+
+a {
+  color: #6D6D6D;
+  font-weight: 200;
+  text-decoration: none; }
+
+.tiny-link {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 200;
+  letter-spacing: 3px; }
+
+body {
+  font-size: 100%; }
+
+@media screen and (min-width: 450px) {
+  body {
+    font-size: 110%; } }
+
+@media screen and (min-width: 680px) {
+  body {
+    font-size: 120%; } }
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 125%; } }
+
+.post.single-post, article.page {
+  padding-top: 1.9em; }
+
+.post, .type-page {
+  padding: 0 2em 2em 2em;
+  margin-bottom: 2em;
+  border-bottom: 0px solid rgba(151, 151, 151, 0.11); }
+
+.post__title a {
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease; }
+
+.post__title a:hover, .post__title a:focus {
+  color: #0CBD99; }
+
+.post__content h2 {
+  font-size: 1.4em; }
+.post__content a {
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+  text-decoration: underline; }
+  .post__content a:hover, .post__content a:focus {
+    color: #0CBD99; }
+.post__content ul, .post__content ol, .post__content p {
+  font-weight: 200; }
+.post__content ul, .post__content ol {
+  margin: 0.75em 0 0.75em 2em; }
+.post__content ul {
+  list-style-type: disc; }
+.post__content code {
+  font-size: 80%;
+  font-family: monospace; }
+.post__content blockquote {
+  margin-left: 2em;
+  font-style: italic; }
+.post__content img {
+  max-width: 100%; }
+.post__content hr {
+  border: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1); }
+
+.post__meta {
+  margin: 0 0 0.75em 0; }
+
+.post__date a {
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: rgba(135, 135, 135, 0.4); }
+
+.post__navigation {
+  padding: 0 2em 2em 2em;
+  border-bottom: 0px solid rgba(151, 151, 151, 0.11);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.post__navigation-link {
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease; }
+  .post__navigation-link:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); }
+    .post__navigation-link:hover a {
+      color: #0CBD99; }
+
+.post--highlighted {
+  padding-top: 2em;
+  position: relative;
+  z-index: 500;
+  background-size: cover;
+  background: #4E4E4E; }
+
+.post--highlighted__highlight {
+  display: block;
+  margin-bottom: 1em;
+  color: white; }
+
+.post--highlighted__title a {
+  color: white;
+  font-weight: 100; }
+
+.post--highlighted__content {
+  display: none; }
+
+.post--highlighted__content p {
+  color: white;
+  font-weight: 200; }
+
+.post__separator {
+  width: 20%;
+  height: 2px;
+  margin: 4em auto 0 auto;
+  border: 0;
+  background: #0CBD99; }
+
+@media screen and (min-width: 520px) {
+  .post--highlighted__content {
+    display: block; } }
+
+.site-header {
+  padding: 2em;
+  border-bottom: 0px solid rgba(151, 151, 151, 0.11);
+  position: relative;
+  overflow: hidden; }
+
+.site-header__logo {
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease; }
+  .site-header__logo:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2); }
+
+.site-header__navigation {
+  display: block;
+  position: static; }
+
+.site-header__logo-image {
+  display: block;
+  width: 105px;
+  height: auto; }
+
+.site-header__navigation-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  width: 100%;
+  padding-bottom: 3px; }
+
+.site-header__navigation-item {
+  display: block;
+  line-height: 62px; }
+  .site-header__navigation-item a {
+    display: block;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease; }
+    .site-header__navigation-item a:hover, .site-header__navigation-item a:hover svg {
+      -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+              transform: scale(1.1);
+      color: #0CBD99;
+      fill: #0CBD99; }
+
+.site-header__navigation-item__icon {
+  padding-top: 7px; }
+  .site-header__navigation-item__icon svg {
+    fill: #6D6D6D; }
+
+@media screen and (max-width: 519px) {
+  .site-header {
+    padding-bottom: 0; }
+  .site-header__logo-image {
+    margin: 0 auto 0.5em auto; } }
+
+@media screen and (min-width: 520px) {
+  .site-header__logo {
+    float: left; }
+  .site-header__navigation {
+    position: absolute;
+    right: 2em; }
+  .site-header__navigation-item {
+    margin-right: 2em; }
+    .site-header__navigation-item:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 769px) {
+  .site-header {
+    padding: 0;
+    width: 230px;
+    border-bottom: 0;
+    float: left; }
+  .site-header__logo {
+    display: block;
+    float: none; }
+  .site-header__logo-image {
+    margin: 40px auto; }
+  .site-header__navigation {
+    display: block;
+    position: static; }
+  .site-header__navigation-items {
+    display: block; }
+  .site-header__navigation-item {
+    display: block;
+    margin: 0 0 1em 0;
+    text-align: center;
+    float: none;
+    line-height: normal; } }
+
+* {
+  -webkit-font-smoothing: antialiased; }
+
+html, body {
+  height: 100%; }
+
+.site-wrap {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.site-wrap {
+  min-height: 100%;
+  margin-bottom: -8rem; }
+
+.site-wrap:after {
+  content: "";
+  display: block; }
+
+.site-footer, .site-wrap:after {
+  height: 8rem; }
+
+.site-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  line-height: 2.5; }
+  .site-footer a {
+    color: white; }
+
+@media screen and (min-width: 450px) {
+  .site-footer__break {
+    display: none; } }
+
+@media screen and (min-width: 769px) {
+  .site-content {
+    margin: 0 0 0 230px;
+    max-width: 700px;
+    border-right: 0px solid rgba(151, 151, 151, 0.11);
+    border-left: 0px solid rgba(151, 151, 151, 0.11); } }

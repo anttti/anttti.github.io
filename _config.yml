@@ -10,6 +10,3 @@ github_username:  anttti
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - octopress-autoprefixer
