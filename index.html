@@ -2,22 +2,7 @@
 layout: default
 ---
 
-  {% for post in site.categories.highlight limit:1%}
-    {% assign content = post.content %}
-    <article class"post--highlighted">
-      <span class="tiny-link post--highlighted__highlight">Highlighted</span>
-      <header class="post--highlighted__header">
-        <h1 class="post__title">
-          <a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }}</a>
-        </h1>
-      </header>
-      
-      <div class="post--highlighted__content">
-        {{ post.excerpt }}
-      </div>
-    </article>
-  {% endfor %}
-
+  <section class="post-listing">
   {% for post in site.posts %}
     <article class="post">
       <header class="post__header">
@@ -38,9 +23,7 @@ layout: default
         {{ post.excerpt }}
       </div><!-- .entry-content -->
 
-      <footer class="entry-footer">
-      </footer><!-- .entry-footer -->
-
       <hr class="post__separator">
     </article><!-- #post-## -->
   {% endfor %}
+  </section>
