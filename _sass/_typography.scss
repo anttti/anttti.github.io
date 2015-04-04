@@ -1,0 +1,62 @@
+body {
+  // font-size: 20px;
+  font-family: Lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.25;
+  color: #606060;
+  font-family: Merriweather, serif;
+
+  & a {
+    text-decoration: none;
+    color: #606060;
+  }
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.6em; }
+
+article, p {
+  line-height: 1.45;
+  color: $color__body-text;
+}
+
+p {
+  margin: 0.75em 0;
+}
+
+a {
+  color: $color__body-text;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.tiny-link {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+body {
+  font-size: 100%;
+}
+
+@media screen and (min-width: 450px) {
+  body {
+    font-size: 110%;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  body {
+    font-size: 120%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 125%;
+  }
+}

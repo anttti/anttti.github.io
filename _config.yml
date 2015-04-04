@@ -1,0 +1,15 @@
+# Site settings
+title: Rarely Needed
+email: me@rarelyneede.com
+description: > # this means to ignore newlines until "baseurl:"
+  Sometimes I have more than 140 characters to say.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://rarelyneeded.com" # the base hostname & protocol for your site
+twitter_username: anttti
+github_username:  anttti
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - octopress-autoprefixer

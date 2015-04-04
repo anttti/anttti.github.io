@@ -1,0 +1,124 @@
+.site-header {
+  padding: 2em;
+  border-bottom: $border__light;
+  position: relative;
+  overflow: hidden;
+}
+
+  .site-header__logo {
+    display: block;
+    margin: 0 auto;
+    transition: $transition__default;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  .site-header__navigation {
+    display: block;
+    position: static;
+  }
+
+  .site-header__logo-image {
+    display: block;
+    width: 105px;
+    height: auto;
+  }
+
+  .site-header__navigation-items {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 3px;
+  }
+
+  .site-header__navigation-item {
+    display: block;
+    line-height: 62px;
+
+    a {
+      display: block;
+      border: 1px solid transparent;
+      border-radius: 50px;
+      transition: $transition__default;
+
+      &:hover, &:hover svg {
+        transform: scale(1.1);
+        color: $color__highlight;
+        fill: $color__highlight;
+      }
+    }
+  }
+
+    .site-header__navigation-item__icon {
+      padding-top: 7px;
+
+      svg {
+        fill: $color__body-text;
+      }
+    }
+
+@media screen and (max-width: 519px) {
+  .site-header {
+    padding-bottom: 0;
+  }
+
+  .site-header__logo-image {
+    margin: 0 auto 0.5em auto;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .site-header__logo {
+    float: left;
+  }
+
+  .site-header__navigation {
+    position: absolute;
+    right: 2em;
+  }
+
+  .site-header__navigation-item {
+    margin-right: 2em;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .site-header {
+    padding: 0;
+    width: 230px;
+    border-bottom: 0;
+    float: left;
+  }
+
+    .site-header__logo {
+      display: block;
+      float: none;
+    }
+
+    .site-header__logo-image {
+      margin: 40px auto;
+    }
+
+    .site-header__navigation {
+      display: block;
+      position: static;
+    }
+
+    .site-header__navigation-items {
+      display: block;
+    }
+
+    .site-header__navigation-item {
+      display: block;
+      margin: 0 0 1em 0;
+      text-align: center;
+      float: none;
+      line-height: normal;
+    }
+}
