@@ -11,3 +11,11 @@ paginate: 8
 
 # Build settings
 markdown: kramdown
+
+# Default Front Matters
+defaults:
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
