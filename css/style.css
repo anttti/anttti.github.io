@@ -76,6 +76,12 @@ a {
   font-weight: 200;
   text-decoration: none; }
 
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
 .tiny-link {
   text-transform: uppercase;
   font-size: 12px;

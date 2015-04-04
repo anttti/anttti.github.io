@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-The definition of a <em>geek</em> according to the dictionary in OS X:
+The definition of a *geek* according to the dictionary in OS X:
 
 > <strong>geek |gēk|</strong><br>
 >  noun informal<br>
