@@ -4,7 +4,11 @@ layout: default
 
 <article class="post single-post">
   <header class="post__header">
-    <h1 class="post__title">{{ page.title }}</h1>
+    {% if page.link %}
+    <h2><a href="{{ page.link }}">{{ page.title }} →</a></h2>
+    {% else %}
+    <h2>{{ page.title }}</h2>
+    {% endif %}
 
     <div class="post__meta">
       <span class="post__date">
@@ -17,6 +21,11 @@ layout: default
 
   <div class="post__content">
     {{ content }}
+    {% if page.link %}
+    <p>
+      <a href="{{ page.link }}">Link to the original article</a>
+    </p>
+    {% endif %}
   </div><!-- .post__content -->
 
   <footer class="post__footer">

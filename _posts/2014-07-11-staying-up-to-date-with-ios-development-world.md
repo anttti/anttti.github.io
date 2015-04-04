@@ -7,18 +7,7 @@ tags: []
 status: publish
 type: post
 published: true
-meta:
-  tumblr_rarelyneeded_permalink: http://rarelyneeded.tumblr.com/post/91467024972/staying-up-to-date-with-ios-development-world
-  tumblr_rarelyneeded_id: '91467024972'
-author:
-  login: antti
-  email: me@rarelyneeded.com
-  display_name: antti
-  first_name: ''
-  last_name: ''
-
 ---
-<a href="https://iosdevweekly.com">Staying up to date with iOS development world</a>
 
 There are a lot of resources to follow, browse and read when it comes to iOS development. I listen to podcasts, follow RSS feeds and Twitter discussions around iOS development but if you just want one good source, it&#8217;s <a href="https://iosdevweekly.com">iOS Dev Weekly</a>, an email newsletter that curates all the most relevant stuff once a week. Recommended++.
 

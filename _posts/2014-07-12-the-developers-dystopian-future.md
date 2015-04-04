@@ -7,13 +7,11 @@ tags: []
 status: publish
 type: post
 published: true
+link: https://the-pastry-box-project.net/ed-finkler/2014-july-6#nav
 ---
 
-<a href="https://the-pastry-box-project.net/ed-finkler/2014-july-6#nav">The Developer's Dystopian Future</a>
+> My tolerance for learning curves grows smaller every day. New technologies, once exciting for the sake of newness, now seem like hassles. I’m less and less tolerant of hokey marketing filled with superlatives. I value stability and clarity.
 
-<blockquote>
-My tolerance for learning curves grows smaller every day. New technologies, once exciting for the sake of newness, now seem like hassles. I’m less and less tolerant of hokey marketing filled with superlatives. I value stability and clarity.
-</blockquote>
 Yup.
 
 
