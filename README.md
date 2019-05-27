@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # Rarely Needed Jekyll blog
 
 ## Compiling styles
